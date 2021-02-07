@@ -1,0 +1,15 @@
+1.Output a list of installed packerges
+pip list
+
+2.Output a list of installed packeges and their versions
+pip list
+
+3.Show the package metadata of numpy.
+pip show numpy 
+
+4.Search for PyPI packages whose name or summary contains "tesseract".
+pip search tesseract
+(PyPI:Python Package Index is a service for registeration of packages)
+
+5.Freeze the packages and their current versions in a requirements.txt file you have to turn-in.
+pip freeze > requirements.txt
